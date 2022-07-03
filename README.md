@@ -8,13 +8,10 @@
 
 После установки открываем командную строку (win+r -> cmd) и пишем эти команды:
 ```
-pip install discord
-pip install asyncio
-pip install requests
-pip install colorama
+pip3 install -U discord requests colorama
 ```
 
-После установки этих модулей открываем именно .bat файл, вас просит префикс и токен. Создаем тут - [тык](https://discord.com/developers) бота, и при создании в разделе bot поставь галочки "members intents" и "presence intents" 
+После установки этих модулей вводим команду `python3 anti-lavan-new.py`, вас просит префикс и токен. Создаем тут - [тык](https://discord.com/developers) бота, и при создании в разделе bot поставь галочки "members intents" и "presence intents" 
 
 Копируем токен, вставляем, бот запущен. Удачи :)
 Список команд - (префикс)help
